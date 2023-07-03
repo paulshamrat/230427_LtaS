@@ -108,4 +108,4 @@ Autocorrelation analysis provides insights into the timescales of protein motion
 
 
 ## Conclusion:
-In this study, we performed MD simulations on the lipoteichoic acid synthase LtaS from Listeria monocytogenes in complex with glycerol phosphate. The simulations provided valuable information about the dynamics of the system and can serve as a basis for further analysis and interpretation of the protein-ligand interactions. The computational approach used in this study demonstrates the utility of MD simulations in understanding the behavior of biomolecules at the atomic level.
+In this case study, we performed MD simulations on the lipoteichoic acid synthase LtaS from Listeria monocytogenes in complex with glycerol phosphate. The simulations provided valuable information about the dynamics of the system and can serve as a basis for further analysis and interpretation of the protein-ligand interactions. The computational approach used in this study demonstrates the utility of MD simulations in understanding the behavior of biomolecules at the atomic level.

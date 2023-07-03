@@ -162,7 +162,6 @@ The clustering dendrogram or heat map can reveal different structural ensembles 
 
 ![Cartesian Coordinate PCA](https://github.com/paulshamrat/230427_LtaS/blob/main/results/Cartesian_coordinate_PCA.png)
 
-
 PCA is a dimensionality reduction technique that captures the dominant motions of the protein.
 The Cartesian Coordinate PCA plot displays the projection of the protein's motion onto the principal components.
 It helps identify collective motions, such as hinge motions or domain movements, that contribute most to the conformational changes.
@@ -190,7 +189,6 @@ Fluctuations in SASA can suggest conformational changes or interactions with sol
 The SASA autocorrelation plot measures the correlation of the SASA values at different time intervals.
 It helps identify the timescale at which the protein's surface area fluctuations persist or decay.
 Autocorrelation analysis provides insights into the timescales of protein motions and relaxation.
-
 
 ## Conclusion:
 In this case study, we performed MD simulations on the lipoteichoic acid synthase LtaS from Listeria monocytogenes in complex with glycerol phosphate. The simulations provided valuable information about the dynamics of the system and can serve as a basis for further analysis and interpretation of the protein-ligand interactions. The computational approach used in this study demonstrates the utility of MD simulations in understanding the behavior of biomolecules at the atomic level.

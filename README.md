@@ -40,6 +40,42 @@ To prepare the system for simulation, we employed the following minimization and
 ## Results:
 The MD simulations provided insights into the dynamic behavior of the lipoteichoic acid synthase LtaS in complex with glycerol phosphate. The trajectory data generated during the simulations can be analyzed to study the conformational changes, stability, and interactions of the protein-ligand complex.
 
+### Loaded Cleaned Protein:
+
+The initial step involves loading the protein structure (4UOR.pdb) into the simulation environment.
+Before simulation, it's common to perform cleaning procedures to remove any artifacts or inconsistencies in the protein structure, such as missing atoms or incorrect bond lengths.
+By loading the cleaned protein, you ensure that the simulation starts with a reliable and accurate representation of the protein.
+
+### Solvated System:
+
+After loading the cleaned protein, the system is solvated by adding water molecules around the protein.
+Solvating the system is crucial to simulate the protein's behavior in an aqueous environment, mimicking its natural surroundings.
+The number of water molecules and the size of the simulation box are typically determined based on the desired concentration and system stability.
+
+### Potential Energy during Minimization:
+
+Before running molecular dynamics simulations, it's essential to minimize the system's potential energy to remove any steric clashes or high-energy configurations.
+During the energy minimization process, the potential energy of the system is iteratively reduced by adjusting the atomic coordinates.
+Monitoring the potential energy helps ensure that the system reaches a stable energy state before proceeding to the equilibration phase.
+
+### Temperature during 1000 ps Equilibration (NVT):
+
+The equilibration phase (NVT ensemble) aims to bring the system to the desired temperature and allow it to adjust to the thermal environment.
+Monitoring the temperature during equilibration ensures that the system reaches and maintains the target temperature.
+Deviations from the target temperature can indicate issues with the simulation setup or energy transfer within the system.
+
+### Pressure during 1000 ps Equilibration (NPT):
+
+The NPT ensemble includes both temperature and pressure control, allowing the system to adjust to the desired pressure conditions.
+Monitoring the pressure during equilibration ensures that the system reaches and maintains the target pressure.
+Deviations from the target pressure can indicate issues with the simulation setup, system density, or interactions between the protein and solvent.
+
+### Density during 1000 ps Equilibration (NPT):
+
+Density refers to the mass per unit volume and provides information about the packing and compactness of the system.
+Monitoring the density during equilibration helps ensure that the system reaches a stable density consistent with the experimental conditions or desired simulation setup.
+Changes in density may indicate system expansion or contraction, which can impact the protein's interactions and behavior.
+
 ### RMSD (Root-Mean-Square Deviation) Plot:
 
 ![RMSD Plot](https://github.com/paulshamrat/230427_LtaS/blob/main/results/rmsd_plot.png)

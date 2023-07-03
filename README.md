@@ -8,30 +8,30 @@ Molecular dynamics (MD) simulation is a powerful computational technique used to
 ## Methods:
 To prepare the system for simulation, we employed the following minimization and equilibration steps:
 
-### Energy Minimization (em.mdp):
+### Energy Minimization:
 
 - We used the steepest descent minimization algorithm to relax the system.
 - The minimization process was terminated when the maximum force reached a threshold of 1000 kJ/mol/nm.
 - The minimization step size was set to 0.01, and a maximum of 50,000 steps were performed.
 
-### Ionization (ions.mdp):
+### Ionization:
 
 - This step involved adding ions to neutralize the system.
 - The same minimization algorithm and parameters as in the previous step were used.
 
-### NVT Equilibration (nvt.mdp):
+### NVT Equilibration:
 
 - The protein was restrained using position restraints.
 - MD simulations were performed using the leap-frog integrator for 50,000 steps (100 ps).
 - The time step was set to 0.002 ps (2 fs).
 - Energies, logs, and compressed coordinates were saved every 1.0 ps.
 
-## NPT Equilibration (npt.mdp):
+## NPT Equilibration:
 
 - The system was equilibrated under constant pressure and temperature conditions.
 - Similar simulation parameters as in the NVT equilibration step were used.
 
-### Production MD Simulation (md.mdp):
+### Production MD Simulation:
 
 - The equilibrated system was subjected to a production MD simulation.
 - The simulation was run for 50,000 steps (100 ps) with a time step of 0.002 ps (2 fs).

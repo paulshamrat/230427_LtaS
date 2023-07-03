@@ -43,10 +43,15 @@ The MD simulations provided insights into the dynamic behavior of the lipoteicho
 
 ### RMSD (Root-Mean-Square Deviation) Plot:
 
+![RMSD Plot](https://github.com/paulshamrat/230427_LtaS/blob/main/results/rmsd_plot.png)
+
 The RMSD plot shows the deviation of the protein's structure from its initial reference structure over time.
 It provides insights into the stability and structural changes of the protein during the MD simulation.
 Large fluctuations in RMSD may indicate conformational changes or structural rearrangements.
+
 ### RMSF (Root-Mean-Square Fluctuation) Plot:
+
+![RMSF CA Plot](https://github.com/paulshamrat/230427_LtaS/blob/main/results/rmsf_ca_plot.png)
 
 The RMSF plot displays the average atomic fluctuations of the protein residues during the MD simulation.
 It helps identify flexible or highly mobile regions within the protein.
@@ -54,11 +59,15 @@ Higher RMSF values suggest greater flexibility, while lower values indicate more
 
 ### Rg (Radius of Gyration) Plot:
 
+![Rg Plot](https://github.com/paulshamrat/230427_LtaS/blob/main/results/rg_plot.png)
+
 The Rg plot shows the average distance of the protein atoms from the center of mass over time.
 It provides information about the compactness or expansion of the protein during the simulation.
 An increasing Rg value may indicate protein unfolding or structural expansion.
 
 ### RMSD Average Linkage Hierarchical Clustering:
+
+![RMSD Average Linkage Hierarchical Clustering](https://github.com/paulshamrat/230427_LtaS/blob/main/results/RMSD_Average_linkage_hierarchical_clustering.png)
 
 Hierarchical clustering is a method to group similar conformations based on their RMSD values.
 It helps identify distinct clusters or conformational states of the protein during the simulation.
@@ -75,17 +84,23 @@ It helps identify collective motions, such as hinge motions or domain movements,
 
 ### Pairwise Distance PCA:
 
+![Pairwise Distance PCA](https://github.com/paulshamrat/230427_LtaS/blob/main/results/Pairwise_distance_PCA.png)
+
 Pairwise Distance PCA analyzes the distances between pairs of residues during the MD simulation.
 It provides insights into the dynamic interactions and rearrangements of specific regions within the protein.
 The PCA plot based on pairwise distances helps visualize the correlated motions of residue pairs.
 
 ### Total SASA (Solvent-Accessible Surface Area) Plot:
 
+![Total SASA](https://github.com/paulshamrat/230427_LtaS/blob/main/results/Total_SASA.png)
+
 The Total SASA plot displays the time evolution of the protein's exposed surface area.
 It can indicate changes in protein solvation, solvent accessibility, or exposure of specific regions.
 Fluctuations in SASA can suggest conformational changes or interactions with solvent molecules.
 
 ### SASA Autocorrelation Plot:
+
+![SASA Autocorrelation](https://github.com/paulshamrat/230427_LtaS/blob/main/results/sasa_autocorrelation.png)
 
 The SASA autocorrelation plot measures the correlation of the SASA values at different time intervals.
 It helps identify the timescale at which the protein's surface area fluctuations persist or decay.

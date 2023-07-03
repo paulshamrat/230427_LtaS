@@ -1,7 +1,6 @@
 # 230427_LtaS
-simulation data
 
-# Molecular Dynamics Simulation of Lipoteichoic Acid Synthase LtaS from Listeria monocytogenes in Complex with Glycerol Phosphate (PDB ID: 4UOR)
+# Molecular Dynamics Simulation of Lipoteichoic Acid Synthase LtaS from Listeria monocytogenes (PDB ID: 4UOR)
 
 ## Summary 
 Molecular dynamics (MD) simulation is a powerful computational technique used to study the dynamic behavior of biomolecules at the atomic level. In this report, we performed MD simulations on the lipoteichoic acid synthase LtaS from Listeria monocytogenes in complex with glycerol phosphate, using the protein structure with PDB ID 4UOR. The simulations were conducted on a GPU-enabled Google Colab platform.

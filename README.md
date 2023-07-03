@@ -76,7 +76,7 @@ To prepare the system for simulation, we employed the following minimization and
 - It can be useful for analyzing and plotting time-dependent properties extracted from molecular dynamics simulations.
 
 ## Results:
-The MD simulations provided insights into the dynamic behavior of the lipoteichoic acid synthase LtaS in complex with glycerol phosphate. The trajectory data generated during the simulations can be analyzed to study the conformational changes, stability, and interactions of the protein-ligand complex.
+The MD simulations provided insights into the dynamic behavior of the lipoteichoic acid synthase LtaS. The trajectory data generated during the simulations can be analyzed to study the conformational changes, stability, and interactions of the protein-ligand complex.
 
 ### Loaded Cleaned Protein:
 

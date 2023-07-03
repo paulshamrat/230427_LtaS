@@ -35,6 +35,46 @@ To prepare the system for simulation, we employed the following minimization and
 - The simulation was run for 50,000 steps (100 ps) with a time step of 0.002 ps (2 fs).
 - Energies, logs, and compressed coordinates were saved every 2.0 ps.
 
+### Analysis
+
+##### Python:
+
+- Python is a widely used programming language in scientific computing and data analysis.
+- It provides a flexible and powerful environment for handling and analyzing complex data, including molecular dynamics simulation results.
+
+##### MDAnalysis:
+
+- MDAnalysis is a Python library specifically designed for the analysis of molecular dynamics simulations.
+- It provides a wide range of functionalities for reading, writing, and analyzing trajectory files, as well as manipulating atomic coordinates and extracting structural and dynamic properties.
+
+##### NumPy and Matplotlib:
+
+- NumPy is a fundamental library for numerical computing in Python.
+- It provides efficient data structures and mathematical functions that are essential for scientific computing tasks.
+- Matplotlib is a plotting library that allows for the creation of high-quality figures and visualizations.
+- It is commonly used in conjunction with NumPy for data analysis and visualization tasks.
+
+##### mdtraj:
+
+- mdtraj is a powerful library for analyzing molecular dynamics trajectories.
+- It provides a wide range of tools for analyzing and manipulating trajectory data, including calculating RMSD, RMSF, and other structural properties.
+- mdtraj also offers visualization capabilities, making it useful for generating molecular visualizations and plotting analysis results.
+
+##### NGLview:
+
+- NGLview is a Python library for visualizing molecular structures and trajectories.
+- It provides an interactive 3D viewer that can be embedded in Jupyter notebooks.
+- NGLview allows for the visualization of protein structures, trajectories, and analysis results, enhancing the understanding of molecular dynamics simulations.
+
+##### Cython, PyTraj, and tsplot:
+
+- Cython is a programming language that combines the ease of Python with the performance of C.
+- It can be used to optimize critical parts of the code for improved computational efficiency.
+- PyTraj is a Python library that provides a high-level interface to the AmberTools suite of molecular dynamics analysis tools.
+- It offers various analysis capabilities, such as calculating structural properties, performing clustering, and analyzing trajectories.
+- tsplot is a Python library for time series analysis and visualization.
+- It can be useful for analyzing and plotting time-dependent properties extracted from molecular dynamics simulations.
+
 ## Results:
 The MD simulations provided insights into the dynamic behavior of the lipoteichoic acid synthase LtaS in complex with glycerol phosphate. The trajectory data generated during the simulations can be analyzed to study the conformational changes, stability, and interactions of the protein-ligand complex.
 

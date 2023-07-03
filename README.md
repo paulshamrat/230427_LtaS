@@ -1,5 +1,3 @@
-# 230427_LtaS
-
 # Molecular Dynamics Simulation of Lipoteichoic Acid Synthase LtaS from Listeria monocytogenes (PDB ID: 4UOR)
 
 ## Summary 
